@@ -1,5 +1,5 @@
 {% set name = "dagster_pagerduty" %}
-{% set version = "0.6.4" %}
+{% set version = "0.28.1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 213305df22fef0e7ce62fe5bf289f643ef5c3e8b7bb098de6a0c137eed6e1ea4
+  sha256: 554294a3bddf5b57d4cea4867bd0164e2ae1733861b76e583b9d9bf5f0344c62
 
 build:
   number: 0
